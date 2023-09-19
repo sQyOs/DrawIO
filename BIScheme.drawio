@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T09:46:02.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="lvuXvy_z06_AxMupph7A" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T09:49:28.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="F7jZqNtTtYY-8P3uVLdd" version="21.7.5" type="github">
   <diagram name="Страница — 1" id="ziPgYe1ti4VQZfaezdDB">
     <mxGraphModel dx="3039" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3HdMp-sY-wx7udewmaT8-1" value="Linux Server&lt;br&gt;&lt;br&gt;Ubuntu?&lt;br&gt;Clickhouse" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="-315" y="530" width="135" height="80" as="geometry" />
+        <mxCell id="3HdMp-sY-wx7udewmaT8-1" value="Linux Server&lt;br&gt;Ubuntu?&lt;br&gt;&lt;br&gt;Clickhouse&lt;br&gt;&lt;br&gt;Python Server&lt;br&gt;(ETL +&lt;br&gt;Оркестратор (Prefect)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="-315" y="530" width="135" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3HdMp-sY-wx7udewmaT8-2" value="Windows Server&lt;br&gt;&lt;br&gt;IIS&lt;br&gt;Pix Apps&lt;br&gt;PostgreSQL" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="-320" y="360" width="140" height="100" as="geometry" />
@@ -37,7 +37,7 @@
         <mxCell id="g9vobRkobLOLe8Vvobcq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g9vobRkobLOLe8Vvobcq-16" target="3HdMp-sY-wx7udewmaT8-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g9vobRkobLOLe8Vvobcq-19" value="Внутренний обработчик на стороне 1С" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g9vobRkobLOLe8Vvobcq-18">
+        <mxCell id="g9vobRkobLOLe8Vvobcq-19" value="Внутренний обработчик &lt;br&gt;на стороне 1С" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g9vobRkobLOLe8Vvobcq-18">
           <mxGeometry x="-0.0129" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
